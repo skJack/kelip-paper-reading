@@ -10,7 +10,7 @@ to your machine, then explains the paper in six stops. Whenever it talks about a
 After each stop it asks whether you want to move on:
 
 ```
-① Motivation → ② Architecture → ③ Training (loss) → ④ Data (what one sample looks like) → ⑤ Input/output flow → ⑥ Walk one example through (against the code)
+① Motivation & Insights → ② Architecture → ③ Training (loss) → ④ Data (what one sample looks like) → ⑤ Input/output flow → ⑥ Walk one example through (against the code)
                                                                                           (optional ⑦ Results, and where the paper stands today)
 ```
 
@@ -20,7 +20,7 @@ As it goes, it writes each stop and every question you asked into a notes file i
 
 | Stop | After this stop you can tell someone |
 |---|---|
-| ① Motivation | What problem it solves, where earlier approaches got stuck, and the key bet the authors made |
+| ① Motivation & Insights | The concrete problem, why earlier approaches fail, how the authors' key observations lead to the design, and what evidence and conditions support those insights |
 | ② Architecture | What every box in the overview figure is, where data goes in and comes out; how many frames the model sees and how many steps it outputs |
 | ③ Training | What the loss pushes the model to learn, how many stages there are, and which parameters each stage updates |
 | ④ Data | What one training sample actually looks like: fields, shapes, units, one row of real values. More than the dataset's name |
